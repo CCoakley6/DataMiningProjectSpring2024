@@ -29,6 +29,10 @@ The classification analysis shows that an increased vaccination rate in counties
 This analysis shows a decrease in the transmissibility of COVID-19 at temperatures exceeding 30°C, under 30°C, or under a 20% relative humidity.
 
 
+##### Geospatial Analysis:
+??????????????????????????
+
+
 ### Application of this Knowledge
 
 - The data confirm the relationship between increased COVID-19 cases and reduced mobility in workplaces and transit centers. However, the data also indicate increased residential mobility correlating with rising COVID-19 rates. When imposing future restrictions, care should be given to the fact that closures of outdoor venues may lead to increased indoor mobility.
