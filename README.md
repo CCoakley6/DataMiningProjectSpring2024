@@ -9,20 +9,19 @@
 
 
 ### Description
-Our project focuses on analyzing data related to COVID-19, including the effect of vaccination on transmission and death. We also look at other local variables, such as temperature, humidity, and population density to track the spread of the virus. Our analysis will also use geospatial analysis to look for hot spots and infection surges to see how surrounding counties are impacted. We are relying on the COVID-19 Open Data by Google, which provides differing levels of granularity to allow us to focus on different analyses, providing data from 1/1/2020 to 9/17/2022 of various scopes, from world-wide aggregate data, to data about individual counties in any given state in the US. This data was compiled by researchers who authored a paper called COVID-19 Open-Data a global-scale spatially granular meta-dataset for coronavirus disease.
+Our project focuses on analyzing data related to COVID-19, including the effect of vaccination on transmission and death. We also look at other local variables, such as temperature, humidity, and population density to track the spread of the virus. Our analysis also uses geospatial analysis to look for hot spots and infection surges and see how surrounding counties are impacted. We are relying on the COVID-19 Open Data by Google (https://health.google.com/covid-19/open-data/), which provides differing levels of granularity to allow us to focus on different analyses, providing data from 1/1/2020 to 9/17/2022 of various scopes, from world-wide aggregate data to data about individual counties in any given state in the US. This data was compiled by researchers who authored a paper called COVID-19 Open-Data, which is a global-scale spatially granular meta-dataset for coronavirus disease.
 
 
 ### Summary of Findings
 
 
 ##### How are COVID rates correlated with local variables:
-- There is a moderate positive correlation ($r=0.24$) between the new confirmed cases and new deceased cases.
+- A moderate positive correlation exists between the new confirmed and deceased cases.
 - Mobility data show weak negative correlations with new confirmed cases, with the highest in transit stations.
 - Residential mobility shows a weak positive correlation with new confirmed cases.
-- Temperature show weak negative correlations with newly confirmed cases.
+- Temperature shows weak negative correlations with newly confirmed cases.
 
-##### Did high vaccination rates help mitigate the deaths andspread of the virus?
-
+##### Did high vaccination rates help mitigate the deaths and spread of the virus?
 The classification analysis shows that an increased vaccination rate in counties with higher older population rates decreases the mortality rate in the county. This shows a correlation between vaccines and lower mortality rates for older populations.
 
 
@@ -45,12 +44,10 @@ This analysis shows a decrease in the transmissibility of COVID-19 at temperatur
 
 
 ### Video Demonstration 
-
 The project demonstration is in the following video:
 
 
 ### Final Paper
-
 The final paper is the following link:
 
 
