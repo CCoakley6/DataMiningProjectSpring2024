@@ -21,11 +21,12 @@ Our project focuses on analyzing data related to COVID-19, including the effect 
 - Residential mobility shows a weak positive correlation with new confirmed cases.
 - Temperature show weak negative correlations with newly confirmed cases.
 
-##### Understand the impact of vaccines COVID-19 death rates:
+##### Did high vaccination rates help mitigate the deaths andspread of the virus?
+
 The classification analysis shows that an increased vaccination rate in counties with higher older population rates decreases the mortality rate in the county. This shows a correlation between vaccines and lower mortality rates for older populations.
 
 
-##### Understand the impact of weather on COVID-19 rates:
+##### Understand the impact of detailed weather variables on COVID-19 rates
 This analysis shows a decrease in the transmissibility of COVID-19 at temperatures exceeding 30°C, under 30°C, or under a 20% relative humidity.
 
 
