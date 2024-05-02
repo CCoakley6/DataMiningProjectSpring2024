@@ -30,7 +30,7 @@ This analysis shows a decrease in the transmissibility of COVID-19 at temperatur
 
 
 ##### Geospatial Analysis:
-This analysis shows that COVID-19 spreads from county to county and the changes can be seen at different time aggregation periods and is more pronounced with appropriate binning.
+This analysis shows that COVID-19 spreads from county to county and the changes can be seen at different time aggregation periods and is more pronounced with appropriate binning. The outbreak tends to spread to other areas in a matter of days or weeks.
 
 
 ### Application of this Knowledge
