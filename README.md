@@ -30,7 +30,7 @@ This analysis shows a decrease in the transmissibility of COVID-19 at temperatur
 
 
 ##### Geospatial Analysis:
-??????????????????????????
+This analysis shows that COVID-19 spreads from county to county and the changes can be seen at different time aggregation periods and is more pronounced with appropriate binning.
 
 
 ### Application of this Knowledge
@@ -41,6 +41,7 @@ This analysis shows a decrease in the transmissibility of COVID-19 at temperatur
 
 - This study shows a decrease in the transmissibility of COVID-19 at temperatures exceeding 30 Deg C, below 30 Deg C, or under 20% relative humidity. The reason for this decrease is not identified within the scope of this study. It could be due to reduced virus transmissibility in extreme weather conditions or decreased mobility in such conditions. This information could be used to adjust pandemic restrictions during extreme weather.
 
+- The Geospatial analysis informs that when a county, or counties in an area, are experiencing a significant increase in COVID-19 cases and deaths, the nearby and neighboring counties are likely to experience an increase in COVID-19 transmission and death, so those counties should plan accordingly. 
 
 
 ### Video Demonstration 
