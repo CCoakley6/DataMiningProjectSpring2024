@@ -49,7 +49,7 @@ The project demonstration is in the following video:
 
 
 ### Final Paper
-The final paper is the following link:
+The final paper is the following link: https://github.com/CCoakley6/DataMiningProjectSpring2024/blob/main/CSPB_4502-Group%204-Project_Final%20Report%20(Part%204).pdf
 
 
 ### Project Directory
