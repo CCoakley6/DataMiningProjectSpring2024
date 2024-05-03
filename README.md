@@ -58,7 +58,7 @@ The final paper is the following link: https://github.com/CCoakley6/DataMiningPr
 |---|---|
 | All CSVs/     | Contains all counties data each in single CSV file |
 | Geospatial/   | Contains all geospatial analysis code |
-| Index and Ancilliary CSVs/   | ?? |
+| LaTeXFiles/   | LaTeX Files for all submissions |
 | Misc Functions/              | Contains code for importing data, classification, and clustering  |
 |Test CSVs/            | Data for testing phase |
 | frequent_patterns/              | Frequent pattern analysis code  |
