@@ -1,0 +1,126 @@
+%\documentclass{article}
+\documentclass{beamer}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref} % Required for inserting hyperlinks
+\usepackage{comment}
+
+
+\logo{\href{http://www.cubuffs.com/index.aspx}{\includegraphics[height=0.75cm]{CU_logo.png}}} 
+
+
+
+
+\title{CSPB 4502 - Project \\ COVID-19 Comprehensive Study \\Part 1: Team \& Topic \& Dataset} % Should probably give a name to our project within the title
+\author{Mohammed Alsailani \\ Andrew Byrnes\\ Collin Coakley \\ Gilberto Zamarron}
+%by name last name order
+\date{3/3/2024}
+
+\begin{document}
+
+\maketitle
+
+
+
+% in-text comment with bubble comment example
+\section{Title} % if we don't put the title in the \title above, we should put it here
+
+\section{Team Members}
+
+\begin{frame}[fragile]{Description}
+
+\section{Description} % 2-3 sentence project description and talk about interesting questions we inted to answer
+Our project focuses on analyzing data surrounding COVID-19, including deaths, vaccination rates, and cases viewed on a per-county basis, covering dates from 1/1/2020 to 9/17/2022. Our group decided to use the \href{https://health.google.com/covid-19/open-data/}{COVID-19 Open Data by Google}\footnote{https://health.google.com/covid-19/open-data/}. \\
+
+The intriguing questions we aim to answer are:  
+\begin{itemize}
+    \item How do local variables such as temperature, elevation, population density, affect COVID rates?
+    \item Did high vaccination rates help mitigate the deaths and spread of the virus?
+    \item How did population size impact the spread?
+\end{itemize}
+% Interesting questions
+
+%comment block
+\begin{comment}
+This is a commented-out section using the comment package.
+None of the text within the \begin{comment} ... \end{comment} block will be processed by LaTeX.
+\end{comment}
+
+\end{frame}
+
+\begin{frame}[fragile]{Prior Work}
+
+\section{Prior Work} % what prior work has been done on our idea?
+A broad range of prior work has been performed on this data due to significant global impact of COVID-19 on society in the past four years. This data has been applied to economic impact analysis, public health policy analysis, modeling the spread of the virus, assessment of containment measure success and failure, health and healthcare impact forecasts, and more. This dataset has informed researchers, scientists, and healthcare workers in numerous facets of their efforts to effectively allocate resources for vaccine distribution and information dissemination to combat the spread of COVID-19.
+\end{frame}
+
+
+\begin{frame}[fragile]{Datasets}
+\section{Datasets} 
+% list of datasets to use
+The COVID-19 Open Data can be downloaded as world-wide aggregate data, but the data for some countries was sparse in comparison to the US data by county, which was more reliably reported in this dataset. As such, while we plan to clean our data to account for missing values or sparse data, we believe a stronger foundation in the US data by county presents a better baseline dataset for purposes of data mining in this class. As such, we downloaded each US state by county, for a total of 3,228 CSV files with 991 rows of data each on average, and we are storing that in our group GitHub.
+\end{frame}
+
+% where we found it (url/organization)
+
+% Whether we downloaded the data
+\begin{frame}[fragile]{Proposed Work}
+% Data preparation
+\textbf{Data Transformation}: The data will undergo normalization to incorporate population size, allowing for a more accurate assessment of rates related to high cases, death rates, and vaccination rates. Different normalization methods will be implemented to evaluate their effect on the data such as logarithmic scaling to linearize the data, min-max scaling and z-score standardization. \\ 
+\vspace{5}
+%I am intresting in linearizing the data because infection rates grow exponentially it might show a better picture of rate of change. 
+\textbf{Data Reduction}:
+The dataset contain values relevant to the United States due to the wealth of available data. Additionally, there is a concern regarding the integrity of data across different countries due to resource limitations in tracking cases and deaths.
+\section{Proposed Work}
+% paste in existing work here if you want it to start the proposed work section
+\begin{comment}bChat GPT definition of preprocessing
+Data Cleaning: This involves handling missing data, correcting inconsistencies, and removing outliers and noise from the data. Common techniques include imputation (filling in missing values), identifying and correcting errors, and smoothing noisy data.
+
+Data Integration: This step involves combining data from different sources, which may involve dealing with inconsistencies in data formats, naming conventions, and resolving data conflicts to create a coherent dataset.
+
+Data Transformation: Data transformation includes normalizing and scaling data to a specific range, converting data into a suitable format, or creating new variables (feature engineering) that are more informative and relevant for the analysis.
+
+Data Reduction: The aim here is to reduce the volume but produce the same or similar analytical results. Techniques include dimensionality reduction methods like Principal Component Analysis (PCA), feature selection methods to identify the most relevant features, and aggregation to summarize data.
+
+Data Discretization: This involves converting continuous data into discrete bins or categories, which can be particularly useful for certain types of analysis or algorithms that require categorical data.
+
+Feature Encoding: This step converts categorical variables into numerical format so they can be processed by algorithms. Common methods include one-hot encoding, label encoding, and binary encoding.
+\end{comment}
+\end{frame}
+
+
+\begin{frame}[fragile]{Proposed Work (cont.)}
+\textbf{Data Cleaning}: Our data will undergo meticulous checks to ensure consistency in data types. While our dataset is fortunate to be rich in quality, we will still thoroughly review it for any inconsistencies or anomalies to maintain its integrity. \\
+\vspace{5}
+\textbf{Data Aggregation}: The data will be presented in weekly intervals, showcasing the progression of COVID-19 cases, deaths, and vaccination rates. \\ 
+\vspace{5}
+\textbf{Data Integration}: This is a rich data set and at this point in our analysis we feel we do not need to perform data integration. 
+\section{Data Preparation}
+\end{frame}
+
+\begin{frame}[fragile]{List of Tools}
+\section{List of Tools} 
+% what tools we plan to use/think would be useful to use
+Python Programming language with data science libraries will be used in this project. Python is easy to use and supports wide variety of data science libraries. In addition, Python has a large community which publish tutorials and provides support in online forums.
+The following supportive tools will be used in the project. 
+\begin{itemize}
+\item \textbf{Overleaf} for drafting of our project proposal and presentation(s) to allow for real-time collaboration and updates.
+\item \textbf{Git/GitHub} for version control and collaboration.
+\item \textbf{Pandas} for manipulating numerical tables and time series as it provides high level abstraction and supports a wide variety of data types.
+\item \textbf{NumPy} for simple multi-dimensional arrays and matrices mathematical operations.
+\item For data visualization we are considering: \textbf{Tableau, Plotly} and \textbf{Matplotlib}. Tableau and Plotly are interactive, easy to share, and provide high level graphics. While, Matplotlib is flexible and open source. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Evaluation of Results}
+
+\section{Evaluation}
+% How we can evaluate our results
+\begin{comment}
+
+\end{comment}
+Our group is expecting to measure our success based on our ability to answer the interesting questions set forth here and revised based on our exploration of the data throughout the semester. Objective and subjective evaluation methods will be used for this. As we have seen in the lecture slides, strong association rules are sometimes misleading and we have to use our objective judgment to evaluate the data.
+
+\end{frame}
+
+\end{document}

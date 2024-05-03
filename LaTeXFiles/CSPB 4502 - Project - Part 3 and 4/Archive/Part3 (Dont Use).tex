@@ -1,0 +1,583 @@
+%%
+%% This is file `sample-sigconf.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigconf')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass command.
+
+%\documentclass[sigconf]{acmart}
+\documentclass[sigconf,screen,nonacm]{acmart}
+
+%% NOTE that a single column version may be required for 
+%% submission and peer review. This can be done by changing
+%% the \doucmentclass[...]{acmart} in this template to 
+%% \documentclass[manuscript,screen]{acmart}
+%% 
+%% To ensure 100% compatibility, please check the white list of
+%% approved LaTeX packages to be used with the Master Article Template at
+%% https://www.acm.org/publications/taps/whitelist-of-latex-packages 
+%% before creating your document. The white list page provides 
+%% information on how to submit additional LaTeX packages for 
+%% review and adoption.
+%% Fonts used in the template cannot be substituted; margin 
+%% adjustments are not allowed.
+%%
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmlicensed}
+\copyrightyear{2024}
+\acmYear{2024}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[University of Colorado]{CSPB 4502 - Data Mining}{March 18,
+  2024}{Boulder, CO}
+%
+%  Uncomment \acmBooktitle if th title of the proceedings is different
+%  from ``Proceedings of ...''!
+%
+%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%  June 03--05, 2018, Woodstock, NY} 
+\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{COVID-19 Comprehensive Study}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Mohammed Alsailani}
+\authornote{All authors contributed equally to this research.}
+\affiliation{%
+  \institution{University of Colorado Boulder}
+}
+
+\author{Andrew Byrnes}
+\authornotemark[1]
+\affiliation{%
+  \institution{University of Colorado Boulder}
+}
+
+\author{Collin Coakley}
+\authornotemark[1]
+\affiliation{%
+  \institution{University of Colorado Boulder}
+}
+
+
+\author{Gilberto Zamarron}
+\authornotemark[1]
+\affiliation{%
+  \institution{University of Colorado Boulder}
+}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Alsailani et al. 2024}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+%\keywords{COVID-19, Data Mining}
+
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+
+
+\received{22 April 2024}
+%\received[revised]{18 Match 2024}
+%\received[accepted]{18 Match 2024}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Problem Statement/motivation}
+Our project focuses on analyzing data related to COVID-19, including the effect of vaccination on transmission, hospitalization, and death. We will also look at other local variables, such as elevation, temperature, humidity, and population density to track the spread of the virus. Our analysis will also use geospatial analysis to look for hot spots and infection surges to see how surrounding counties are impacted. We are relying on the \href{https://health.google.com/covid-19/open-data/}{COVID-19 Open Data by Google}, which provides differing levels of granularity to allow us to focus on different analyses, providing data from 1/1/2020 to 9/17/2022 of various scopes, from world-wide aggregate data, to data about individual counties in any given state in the US. This data was compiled by researchers who authored a paper called \textit{COVID-19 Open-Data a global-scale spatially granular meta-dataset for coronavirus disease} \cite{wahltinez2022covid}.\\ \\
+Our motivation is multifaceted. First, COVID-19 is a unique event in our lifetime that impacted the world in an unprecedented way. The urgency of finding a solution to the pandemic resulted in a large amount of data being collected, which makes it a good topic for a data mining project. 
+\cite{wahltinez2022covid}. \\
+
+The intriguing questions we aim to answer are:  
+\begin{itemize}
+    \item How are COVID rates correlated with local variables such as: \begin{enumerate}
+        \item Temperature % maybe use a 2 week moving avg of temp & 1-week new COVID cases
+        \item Elevation % since elevation is static, we would want to look at cumulative cases
+        \item Humidity % maybe 2 week moving avg
+        \item Population density %maybe , affect COVID rates? 
+        \item Age % Are older individuals more susceptible to mortality?
+        \item Sex %Investigating whether sex has any influence on COVID-19 outcomes.
+    \end{enumerate}
+    \item Classification of counties or general areas COVID-19 hotpots using geospatial analysis
+        \begin{enumerate} 
+            \item potential classification of areas as hot spots or areas experiencing a surge in infections
+            \item The effect of a surge on surrounding areas, including an attempt to analyze factors, such as mobility, that make an area more or less resistant to a surge in cases when nearby area(s) is experiencing a surge.
+        \end{enumerate}
+
+    
+\end{itemize}
+% Interesting questions
+
+%comment block
+\begin{comment}
+This is a commented-out section using the comment package.
+None of the text within the \begin{comment} ... \end{comment} block will be processed by LaTeX.
+\end{comment}
+
+\section{Literature survey}
+A broad range of prior work has been performed on this data due to significant global impact of COVID-19 on society in the past four years. This data has been applied to economic impact analysis, public health policy analysis, modeling the spread of the virus, assessment of containment measure success and failure, health and healthcare impact forecasts, and more. This dataset has informed researchers, scientists, and healthcare workers in numerous facets of their efforts to effectively allocate resources for vaccine distribution and information dissemination to combat the spread of COVID-19. Fuchs, A. et al \cite{fuchs2020mask} used the dataset to analyse China’s exports of medical goods in times of COVID-19. Arpino, B., et al \cite{arpino2020no} used the data to show that available evidence on the link between intergenerational relationships and COVID-19 is inconclusive. While Murrell, H. et al. \cite{murrell2020estimating} used the data to to estimate Rt from Covid-19 data, using SIR models. Studying how infection or vaccination triggers both cellular and humoral responses is essential to know the grade and length of protection generated in the population.
+
+\section{Data set}
+The COVID-19 Open Data can be downloaded as world-wide aggregate data, but the data for some countries was sparse in comparison to the US data by county, which was more reliably reported in this dataset. As such, while we plan to clean our data to account for missing values or sparse data, we believe a stronger foundation in the US data by county presents a better baseline dataset for purposes of data mining in this class. As such, we downloaded each US state by county, for a total of 3,228 CSV files with 991 rows of data each on average, and we are storing that in our \href{https://github.com/CCoakley6/DataMiningProjectSpring2024}{group GitHub}. COVID-19 Open Data is most comprehensive COVID-19 dataset we are aware of. It contains collection of epidemiological metrics, including cases, deaths, recoveries, and tests, with variability in data availability across different regions. It highlights the differentiation between new and cumulative data to accommodate adjustments in counting criteria and corrections.
+
+\section{Proposed Work}
+
+\begin{comment}
+    - classification: hot spots/zones for mortality, infection, death
+    - geographical analysis: (need to pull in geospatial data) of the spread (potentially from areas identified as hot spots or areas that had recent high infection)
+    - correlation: between temperature, humidity, etc
+\end{comment}
+
+\textbf{Data Transformation}: In our analysis, we calculated the incidence rate per 100,000 people to standardize comparisons across regions with varying population sizes. This metric is crucial for accurately assessing the impact of health-related events regardless of the population density of an area. Additionally Min-Max Scaling was incorporated to give us a value of 0-1 which is crucial for our coloring scheme that will be talked about in further detail below. 
+
+\textbf{Data Repositories}: Currently we maintain a primary repository for our project at \href{https://github.com/CCoakley6/DataMiningProjectSpring2024}{DataMiningProjectSpring2024}. We have all county CSVs stored for our final product, and we have a subselection of test CSVs to test our data mining functions/strategies before deploying it to the larger dataset.\\
+%% Data reduction: get rid of low % columns with few rows, or ones that we don't care to analyze
+\\
+\textbf{Data Reduction}: The dataset primarily focuses on values relevant to the United States due to the abundance of available data. Furthermore, concerns arise regarding the consistency and reliability of data across different countries due to limitations in resources for tracking cases and deaths. Additionally, the dataset exhibits high dimensionality, prompting the need for a dimension reduction analysis to extract dimensions of interest. Lastly, repeated elements conveying identical information will be consolidated to further diminish the dataset's size.\\
+\\
+\textbf{Data Cleaning}:Our dataset underwent a thorough evaluation to assess data availability and consistency across various attributes. Due to differing reporting standards among counties, inconsistencies were observed, such as some counties not reporting cumulative death rates. We decided to exclude counties from specific analyses when they lacked critical data relevant to those inquiries. Additionally, we chose not to include attributes in our study that were reported by only a small percentage of counties. Some counties' naming schemes varied across states; for example, some Excel files used "subregion 2" as the county name, while others used different labels. This variance facilitated a structured approach to data analysis using Python. \\
+%% creating a moving avg to track temperature, humidity in relation to new cases (also on a moving avg)
+\\
+\textbf{Data Aggregation}: The data will be aggregated and presented at various intervals: weekly, monthly, and yearly to illustrate the progression of COVID-19 cases, deaths, and vaccination rates. This will allow for a detailed analysis of trends over time. Specifically, the data will be aggregated over custom periods of 3, 7, 14, and 21 days, monthly intervals, as well as bi-monthly and yearly to capture more nuanced temporal shifts. Geographically, the data will be segmented by counties or states, enabling an examination of how different regions have managed the pandemic. These aggregation intervals are defined in our frequency list as ['3D', '7D', '14D', '21D', '28D', 'M', '2M', '3M', '6M', "1Y'], which correspond to the various time frames for our data analysis\\ 
+%% geospatial stuff?
+\\
+\textbf{Data Integration}: The COVID-19 data was merged with a shape-file depicting the geographical mapping of the United States. The shape-file had its distinct naming convention for referring to states (STATEFP) and counties (NAMELSAD). The integration of this data provided a territorial representation of how the virus behaves across different regions. Additionally, very few states (1-2) seemed to not have reported infection rates based on counties and for the time being they were not included in our geographic mapping and were assigned a distinct color of "grey".\\
+
+
+\noindent
+\textbf{Preliminary Data Analysis Methods}: Various techniques and methodologies were employed to aid in our initial understanding of our data. Temporal plots, such as incidence rates, death rates, and vaccination rates, were graphed over time to familiarize ourselves with the data. Comparing all these plots can pinpoint dates when COVID-19 activity was unusually high. Additionally, a temporal chart of vaccination rates was used to determine if there was a corresponding decline in COVID-19 cases and deaths. Alongside the temporal data, key dates of heightened activity were identified, enabling us to create bar charts that visually depict which counties experienced spikes in COVID-19 activity on specific days. Additionally, a correlation matrix was used to provide a quick overview of how attributes are related, indicating positive, negative, or no correlations between them. Of course this analysis was guided by the important principle that "correlation does not imply causation". Other mathematical tools were used, such as calculating average rates and examining standard deviations to assess the dispersion of our data. See sections 8.5 for preliminary data analysis methods.  \\
+
+\noindent
+\textbf{Regression models}: Linear regression models will be used to help predict transmission rates/mortality rates with regards to a variables such as population density, temperature, humidity, and interventions like vaccination. By fitting a regression line to historical data. \\
+\\
+%% I think we should remove this guys or we can include a section for pre-plotting funcitons to get us familar with out data. 
+%%\textbf{Scatter plot}: This particular plotting method is useful in identifying correlations among variables. \\
+%%\\
+\textbf{Geographical analysis}: We will leverage Geopandas to investigate visual hotspots/zones related to mortality, infection, and fatality. Additionally, we can potentially employ this tool for clustering analysis. \\ 
+\\
+\textbf{Previous literature}: The profound impact of COVID-19 on the world occurred during an era characterized by widespread access to information, leading to extensive research efforts due to its global significance. As a result, many of the data analysis techniques utilized in our study have already been used to some extents in previous research papers. Despite the similarities in techniques used in previous literature, our dataset appears to have been underutilized in comparison. As a result, there may be differences between our findings and those of other studies, or it is possible that we have independently arrived at similar conclusions through our own analyses.
+\\
+\textbf{Correlation Analysis}: The correlation between the local variable discussed in the problem statement, such as temperature, relative humidity, etc. with COVID rates will be analysed using the following metrics: 
+\begin{itemize}
+
+\item Pearson correlation coefficient: The coefficient shows the relation between two linear variable.
+\item Phi Coefficient: is similar to the Pearson correlation, but it is intended for non-Linear relations.
+\item Lift Coefficient: Measures dependence/association between two variables.
+
+It is important to note that Phi and lift are not null invariant. The COVID rates will correlated with the last 10 days average of the variable.
+
+\end{itemize}
+
+
+\section{Evaluation Methods}
+Our group is expecting to measure our success based on our ability to answer the interesting questions set forth here and revised based on our exploration of the data throughout the semester. Objective and subjective evaluation methods will be used for this. As we have seen in the lecture slides, strong association rules are sometimes misleading and we have to use our objective judgment to evaluate the data. Additionally, we will conduct comparative analyses with previous findings, as COVID-19 has been extensively studied. This comparison will allow us to assess the consistency of our results with existing literature and contribute to the broader understanding of the virus's impact.
+
+
+\section{Tools}
+Python Programming language with data science libraries will be used in this project. Python is easy to use and supports wide variety of data science libraries. In addition, Python has a large community which publish tutorials and provides support in online forums.
+The following supportive tools will be used in the project. 
+\begin{itemize}
+\item \textbf{Overleaf} for drafting of our project proposal and presentation(s) to allow for real-time collaboration and updates.
+
+\item \textbf{Git/GitHub} for version control and collaboration.
+\item \textbf{Pandas} for manipulating numerical tables and time series as it provides high level abstraction and supports a wide variety of data types.
+\item \textbf{NumPy} for simple multi-dimensional arrays and matrices mathematical operations.
+\item For data visualization we are considering: \textbf{Tableau, Plotly} and \textbf{Matplotlib}. Tableau and Plotly are interactive, easy to share, and provide high level graphics. While, Matplotlib is flexible and open source. 
+\item \textbf{Geopandas} A choropleth map can be utilized to provide a geographic visualization of virus trends.
+\item \textbf{plotly.express} utilized as interactive visualization library that enables users to zoom in and out, as well as filter attributes of interest.
+
+\end{itemize}
+
+
+\section{Milestones Completed}
+\begin{itemize}
+    \item Completed correlation analysis.
+    \item Completed classification model to study the impact of vaccines.
+    \item Completed clustering to study the impact of weather on infection rate.
+    \item Developed geospatial data visualization tool.
+\end{itemize}
+
+
+\section{Results so far}
+
+
+\subsection{Geospatial analysis}
+The equations that were utilized are shown below. Our methodology for assigning color to a county required min-max normalization in order for us to take a color and mathematically manipulate the color by multiplication and/or subtractions. We also utilized a binning method that allowed us to mainly clusters based on rates which allowed for us to clearly pick bins to assign a color to in equal distributions. Our Geo-plot showed that the death rate for COVID varied tremendously over time. The first image below shows a outbreak impacting the southwest region, specifically Arizona.
+
+{\tiny
+\begin{align*}
+\text{Min-Max Scaling:} \quad x_i' &= \frac{x_i - x_{\text{min}}}{x_{\text{max}} - x_{\text{min}}} \\
+\text{Incidence Rate (Deaths)} &= \left(\frac{\text{New Deceased}}{\text{Population}}\right) \times 100,000 \\
+\text{Incidence Rate (Confirmed)} &= \left(\frac{\text{New Confirmed Cases}}{\text{Population}}\right) \times 100,000
+\end{align*}
+}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{Figures/IncidenceRate_covidCases2020-11-19.png}
+  \caption{The displayed image reveals a notable spike in COVID-19 cases specifically in the mid-north region.}
+  \Description{The aggregation was performed over 17 day intervals. }
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{Figures/IncidenceDeathRate_2020-12-02.png}
+  \caption{The above image shows a spike in deaths for the mid-north region.}
+  \Description{The aggregation was performed over 17 day intervals. }
+\end{figure}
+
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.8\linewidth]{Figures/IncidenceDeathRate_2021-01-13.png}
+  
+  \caption{We can see can see the results of an outbreak in the southwest region.}
+  \Description{The aggregation was performed over 17 day intervals.}
+\end{figure}
+
+
+
+The images above display the death rate and confirmed cases across different counties, aggregated over 17-day intervals. We considered population size in our calculations, but it's also important to note that some states assign larger land areas to counties.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.8\linewidth]{Figures/IncidenceRate_covidCase_2022-01-18.png}
+  
+  \caption{COVID cases are seen here throughout the country.}
+  \Description{There was a COVID outbreak across the country and we were trying to see comparison for death rate}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.8\linewidth]{Figures/IncidenceDeathRate_2022-01-26.png}
+  \caption{Incident rate with relation to deaths.}
+  \Description{There was a COVID outbreak across the country and we were trying to see comparison for death rate}
+\end{figure}
+
+In Figure 4, there is a noticeable increase in the incidence of COVID-19 cases. However, Figure 5 indicates that although there is also a rise in deaths, it does not correspond proportionally to the spike in confirmed cases. This discrepancy suggests that vaccinations may have played a role in mitigating the severity of the virus.
+
+% \newpage
+\noindent
+\subsection{Correlation analysis}
+
+The Pearson Correlation Coefficients for the variables shown in Table \ref{tab:correlation} were calculated to measure the linear relationship between the COVID-19 confirmed cases and death rates with various environmental and mobility variables. These coefficients were computed using the built-in Pearson Correlation function of the \texttt{pandas} library in Python, which uses the following equation:
+
+\begin{equation}
+r = \frac{\sum (x_i - \overline{x})(y_i - \overline{y})}{\sqrt{\sum (x_i - \overline{x})^2 \sum (y_i - \overline{y})^2}}
+\end{equation}
+
+This coefficients quantifies the strength and direction of linear relation between two variables.
+
+The correlation coefficients of -1, indicates a perfect negative linear correlation, while 0 for no correlation, and +1 for perfect positive correlation. The results are presented in Table \ref{tab:correlation} and are discussed below:
+
+\begin{itemize}
+    \item There is a moderate positive correlation ($r=0.24$) between the new confirmed cases and new deceased cases. This is consistent with expected trends in infectious disease outbreaks, indicating that increases in infections are typically accompanied by increases in deaths.
+    \item Mobility data show weak negative correlations with new confirmed cases, with the highest in transit stations ($r=-0.099$) and workplaces ($r=-0.063$). This suggests that rising case numbers slightly reduce mobility in public and workplaces.
+    \item Residential mobility shows a weak positive correlation ($r=0.087$) with new confirmed cases, indicating a slight increase in residential activity, possibly due to more people staying home during periods of high transmission.
+    \item Temperature variables such as average, minimum and maximum temperatures all show weak negative correlations with new confirmed cases ($r$ values of $-0.029$, $-0.025$, and $-0.034$ respectively). This indicates a small impact of decreasing temperatures on the spread of the virus.
+\end{itemize}
+
+Most relationships are relatively weak, indicating the complex nature of pandemic dynamics.
+
+
+
+
+\begin{table}[H]
+\centering
+\caption{Correlation coefficients between COVID-19 case metrics and various mobility and environmental variables.}
+\begin{tabular}{lcc}
+\hline
+\textbf{Variable} & \textbf{New Confirmed} & \textbf{New Deceased} \\ \hline
+new\_confirmed & 1.000000 & 0.240407 \\
+new\_deceased & 0.240407 & 1.000000 \\
+mobility\_retail\_and\_recreation & -0.068893 & -0.082005 \\
+mobility\_grocery\_and\_pharmacy & -0.055497 & -0.067243 \\
+mobility\_parks & -0.070682 & -0.062156 \\
+mobility\_transit\_stations & -0.099402 & -0.102103 \\
+mobility\_workplaces & -0.063318 & -0.066253 \\
+mobility\_residential & 0.087180 & 0.099044 \\
+average\_temperature\_celsius & -0.029875 & -0.014980 \\
+minimum\_temperature\_celsius & -0.025170 & -0.009587 \\
+maximum\_temperature\_celsius & -0.034440 & -0.021168 \\
+rainfall\_mm & -0.005717 & -0.003457 \\
+dew\_point & -0.031608 & -0.019824 \\
+relative\_humidity & -0.008104 & -0.011446 \\ \hline
+\end{tabular}
+\label{tab:correlation}
+\end{table}
+
+
+
+
+Figure \ref{fig:scatter-cor} shows the scatter plot of the new COVID-19 cases and the average temperature in Celsius across different counties. The distribution does not indicate a strong linear relationship, as the data points are spread across the whole temperature range without a clear pattern. 
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/Correlation-scatter.PNG}
+  \caption{Scatter plot of new COVID-19 cases against average temperature for all counties.}
+  \Description{Scatter plot of new COVID-19 cases against average temperature for all counties}
+  \label{fig:scatter-cor}
+\end{figure}
+
+
+
+\subsection{Impact of vaccination on COVID-19 fatality rates}
+
+This part of the study explores the impact of vaccination rates on COVID-19 fatality rates using classification decision trees. Two primary feature variables were selected for analysis:
+
+\begin{itemize}
+\item \textbf{Vaccination Rate:} the ratio of the cumulative number of fully vaccinated individuals to the total population.
+\item \textbf{Old Population Rate:} the sum of the population percentages between the ages of 50 and 69 relative to the total population.
+\end{itemize}
+
+The target variable considered in this analysis is the Death Rate, which is calculated by dividing the total confirmed deaths by the population. The Death Rate is transformed into a binary variable. Death rates exceeding the median value across the dataset are labeled as "high," while those below the median are labeled "low."
+
+To ensure stable analysis, small rates were excluded such as records with a death rate less than $1 \times 10^{-7}$ and a confirmed case rate less than $1 \times 10^{-6}$ were removed from the dataset.
+
+
+The \textit{DecisionTreeClassifier} from \textit{Scikit-learn} was used to build the decision tree model. To prepare for model training and evaluation, the data was split into a training set and a testing set, with 30 \% of the data used for testing to ensure the model's performance can be adequately assessed. The split was performed using a default random seed of 42.
+
+Then a decision tree classifier was trained using the training data. The complexity of the tree was controlled by limiting its depth to three levels. After training, the model was used to predict the outcomes in the test set. The Gini index was chosen as the performance metric as it measures the probability that a randomly selected instance will be incorrectly classified. A lower Gini index indicates a reduced likelihood of misclassification, which means better model performance.
+
+The visual representation of the result of the decision tree is shown in Figure \ref{fig:decision-tree}. Performance metrics of the classification are summarized in Table \ref{Table:Corr-results}. The decision tree visualization shows the classification based on vaccination rates and the proportion of the older population to predict high or low COVID-19 death rates. First, we observe the root node splits the dataset based on the vaccination rate. This suggests an initial significant relationship between the vaccination rate and death rates. Other splits are using older population rate thresholds which show that higher vaccination rates generally correspond to lower death rates in regions with higher older population rate. In addition, in branches where the old population is high and vaccination rate is low, the classification shows a higher death rate.
+
+As summarized in Table \ref{Table:Corr-results}, the model accuracy is a bit over 65 \%, suggesting that the model has a reasonable degree for predection. In addition, the accuracy is balanced between the two classes. Future work should focus on improving the accuracy of the classification model.
+
+In conclusion, the decision tree classification shows that an increased vaccination rate in counties with higher older population rates decreases the mortality rate in the county. This shows correlation between vaccine and and lowe mortality rate for older population. 
+
+\begin{table}[h]
+\centering
+\caption{Classification Metrics}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Support} \\ \hline
+0              & 0.65               & 0.70            & 0.67              & 22305            \\ \hline
+1              & 0.66               & 0.61            & 0.63              & 21670            \\ \hline
+\multicolumn{5}{|c|}{\textbf{Accuracy: 0.6523 (43975 instances)}}                         \\ \hline
+\multicolumn{5}{|c|}{\textbf{Macro Avg:} Precision: 0.65, Recall: 0.65, F1-score: 0.65}  \\ \hline
+\multicolumn{5}{|c|}{\textbf{Weighted Avg:} Precision: 0.65, Recall: 0.65, F1-score: 0.65} \\ \hline
+\end{tabular}
+\label{Table:Corr-results}
+\end{table}
+
+
+\begin{figure*}[h]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/tree_high_res.png}
+  \caption{Classification tree, where the target variable is the death rate is High or low compared to the median.}
+  \Description{Classification tree}
+  \label{fig:decision-tree}
+\end{figure*}
+
+
+\subsection{Impact of weather on COVID-19 rates}
+
+The K-means clustering algorithm from the \texttt{sklearn} library was used to find the relation between weather conditions and COVID-19 infection rates by analyzing three-dimensional data on average daily temperature, relative humidity, and confirmed cases per capita. Data with confirmed case rates lower than 0.01\% were removed to simplify the detection. 
+
+
+
+Four different clusters are selected for the analysis based on Inertia sensitivity analysis shown in Figure \ref{fig:Intertia}. Inertia measures the distance between each data point and its centroid, which quantifies the performance of the cluster. Standard scaler was used to scale the data as the attributes have different dimensions. The standard score of a sample x is calculated as:
+
+\begin{equation}
+z = (x - u) / s
+\end{equation}
+
+\noindent where u is the mean of the data, and s is the standard deviation
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/Interia.png}
+  \caption{Inertia for different number of clusters.}
+  \Description{Inertia}
+  \label{fig:Intertia}
+\end{figure}
+
+The resulting three-dimensional cluster visualization is displayed in Figure \ref{fig:3D-Cluster}. It is observable that cluster 3 is superimposed above clusters 0, 1 and 2, which indicates a higher incidence of confirmed cases within cluster 3. As shown in Figure \ref{fig:confirmedPerCluster}, cluster 3 confirmed cases rates are much higher than other clusters. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/3DClusters.PNG}
+  \caption{Scatter plot COVID-19 Cases per Capita, Temperature and Humidity colored by cluster number.}
+  \Description{Scatter Plot}
+  \label{fig:3D-Cluster}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/confirmedPerCluster.png}
+  \caption{Box plot for the different clusters.}
+  \Description{Scatter plot COVID-19 Cases per Capita, Temperature and Humidity colored by cluster number }
+  \label{fig:confirmedPerCluster}
+\end{figure}
+
+
+A two-dimensional projection, illustrating temperature and humidity within cluster 3, is presented in Figure \ref{fig:2D-cluster}. The data has a temperature range of -30\textdegree{}C to 30\textdegree{}C and humidity levels above 20\%. 
+
+This analysis shows a decrease in the transmissibility of COVID-19 at temperatures exceeding 30\textdegree{}C, under 30\textdegree{}C, or under a 20\% relative humidity.
+
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/Cluster3-2D.PNG}
+  \caption{Temperature and humidity 2D projection of cluster 3.}
+  \Description{2D projection of cluster 3.}
+  \label{fig:2D-cluster}
+\end{figure}
+
+\subsection{Preliminary plots}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/3daymovingaverage.png}
+  \caption{County-Level 3-Day Moving Average of COVID-19 Mortality Rates Per 10,000 Residents}
+  \Description{This figure displays the smoothed mortality rates across various counties, highlighting regions with the highest deaths using a 3-day moving average approach.}
+  \label{fig:3day_moving_average_mortality}
+\end{figure}
+
+As illustrated in the figure above, Harris County emerges as an outlier among the other counties. While the visualization initially appears static, utilizing Plotly Express enables dynamic exploration through panning and zooming. This capability reveals counties that may not be immediately visible. This analytical approach was employed to identify which counties were most severely impacted
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/3daymovingaveragevacines.png}
+  \caption{County-Level 3-Day Moving Average of Daily Vaccinations}
+  \Description{This figure illustrates the average daily vaccinations over a 3-day period, providing insights into the vaccination trends across counties.}
+  \label{fig:3day_moving_average_vaccines}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{Figures/Temporal3daymovingaverageDeaths.png}
+  \caption{Temporal Analysis of 3-Day Moving Average Deaths at the County Level}
+  \Description{This figure tracks the 3-day moving average of deaths over time, revealing temporal trends and patterns in mortality at the county level.}
+  \label{fig:temporal_3day_moving_average_deaths}
+\end{figure}
+
+\section{Milestones Todo}
+We also plan to explore different bin sizes when looking at the normalized incidence rates for counties, and see how if that allows us to analyze clustering and classification in new ways, such as classifying certain states as high-risk and low-risk.
+
+Now that we have our analysis showing that COVID-19 transmission rates decrease related to temperatures exceeding 30\textdegree{}C and below 20\% humidity, we plan to analyze states that tend to fall in that range to see their average transmission rates compared to states that tend to fall well below 30\textdegree{}C and/or 20\% humidity. Our plan is to try different ranges, different categorizations (such the yearly avg or median fall below that threshold), and see what interesting patterns can be found.
+
+
+
+
+
+
+
+
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.
