@@ -45,7 +45,7 @@ This analysis shows that COVID-19 spreads from county to county and the changes 
 
 
 ### Video Demonstration 
-The project demonstration is in the following video:
+The project demonstration is in the following video link: https://www.youtube.com/watch?v=BD9XPQtPQP0
 
 
 ### Final Paper
